@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: #ffedd2;
+}
+
+#calculator {
+  background-color: #d7d6dc;
+  display: inline-block;
+  width: 300px;
+  border-radius: 50px;
+  border-style: inset;
+  border-color: #cccbcb;
+  border-width: 3px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: 30px;
+  -webkit-box-shadow: 1px 5px 0px #58585a, -5px 5px 30px 5px #58585a, inset 2px 2px 24px 5px rgba(165, 165, 165, 0.88);
+  box-shadow: 1px 5px 0px #58585a, -5px 5px 30px 5px #58585a, inset 2px 2px 24px 5px rgba(165, 165, 165, 0.88);
+}
+
+#display-screen {
+  border-radius: 5px;
+  border-style: inset;
+  border-color: #a5a5a5;
+  border-width: 3px;
+  background-color: #949f97;
+  display: block;
+  /* height: 80px; */
+  padding: 2px;
+  margin-bottom: 15px;
+}
+#display {
+  font-size: 35px;
+  margin: 3px;
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 0px;
+  text-align: right;
+  word-wrap: break-word;
+}
+#display-expression {
+  text-align: left;
+  margin: 0px;
+  padding: 7px;
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 0px;
+  word-wrap: break-word;
+}
+
+.key {
+  display: inline-block;
+  width: 20%;
+  color: #fff;
+  background-color: #8c8c8e;
+  font-size: xx-large;
+  border-radius: 7px;
+  border-style: inset;
+  border-color: #6a6a6c;
+  border-width: 2px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  margin: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 5px 0px #555557, -2px 5px 12px 1px #555557, inset 2px 2px 15px 4px #555557;
+  box-shadow: 1px 5px 0px #555557, -2px 5px 12px 1px #555557, inset 2px 2px 15px 4px #555557;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.key:hover {
+  background-color: #aaaaac;
+}
+.key:active {
+  transform: translateY(4px);
+  box-shadow: none ;
+  color: #fff;
+}
+
+.operation {
+  background-color: #4d4d4d;
+  border-color: #3b3b3b;
+  box-shadow:1px 5px 0px #2b2b2b,
+  -2px 5px 12px 1px #2b2b2b,
+  inset 2px 2px 15px 4px #2b2b2b;
+}
+.operation:hover {
+  background-color: #6f6f6f;
+}
+
+.command {
+  background-color: #be657b;
+  border-color: #ab5971;
+  box-shadow:1px 5px 0px #6d3445,
+  -2px 5px 12px 1px #6d3445,
+  inset 2px 2px 15px 4px #9e455b;
+}
+.command:hover {
+  background-color: #ff88a6;
+}
+
+.hidden {
+  visibility: hidden;
+}

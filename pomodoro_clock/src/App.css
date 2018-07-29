@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.App {
+  text-align: center;
+  min-width: 300px;
+}
+
+#time-left {
+  color: royalblue;
+  font-size: 100px;
+  margin: 15px;
+  text-shadow: -1px 1px 8px mediumpurple;
+}
+
+#timer-label {
+  color: royalblue;
+  font-size: 2em;
+  margin: 15px;
+}
+
+.timer-updater {
+  display: inline-block;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    min-width: 170px;
+    width: 30%;
+    border-radius: px;
+    border-width: 5px 0px 5px 0px;
+    border-style: solid;
+    color: darkslateblue;
+    -webkit-box-shadow: -2px 2px 10px 0px #bcb1ff;
+    box-shadow: -2px 2px 10px 0px #bcb1ff;
+}
+
+.label {
+  padding: 5px;
+}
+
+.length {
+  display: inline-block;
+  padding: 0 15px 0 15px;
+  font-weight: bold;
+  min-width: 25px;
+}
+
+.btn {
+  color: purple;
+  background-color: white;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 1.5em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-width: 30px;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.btn.off {
+  cursor: not-allowed;
+  color: aliceblue;
+}
+
+.btn.on {
+  cursor: pointer;
+}
+
+.btn.on:hover {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  -webkit-box-shadow: -1px 1px 5px 0px #d63dd6;
+  box-shadow: -1px 1px 5px 0px #d63dd6;
+}
+
+.btn.on:active {
+  background-color: white;
+  color: purple;
+}

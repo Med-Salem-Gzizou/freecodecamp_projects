@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+  min-width: 700px;
+}
+div {
+  padding: 0px;
+  margin: 0px;
+}
+#simonGame {
+  background-color: #3a3a3a;
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 100%;
+  border-style: outset;
+  border-color: #a0a0a0;
+  box-shadow:
+    inset 0px 0px 10px 2px #777,
+    0px 0px 0px 1px #373737,
+    3px 3px 10px 6px #939191,
+    5px 5px 25px 10px #b3b1b1;
+}
+.center {
+  font-size: 50px;
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+}
+#error {
+  width: 500px;
+  margin-top: -110px;
+  border-radius: 10px;
+  background-color:
+    rgba(255, 255, 255, 0.64);
+  box-shadow: 2px 2px 25px 5px;
+}
+#won {
+  color: #007700;
+  width: 500px;
+  margin-top: -110px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color:
+    rgba(255, 255, 255, 0.64);
+  box-shadow: 2px 2px 25px 5px;
+}
+.button {
+  width: 12rem;
+  height: 12rem;
+  background-color: #fff;
+  margin: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  border-style: outset;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow:
+    inset 2px 2px 25px 4px rgba(255, 255, 255, 0.38);
+}
+.click {
+  box-shadow: 0px 0px 25px 8px,
+    inset 2px 2px 10px 4px rgba(255, 255, 255, 0.58);
+}
+.clickable:active {
+  box-shadow: 0px 0px 25px 8px,
+    inset 2px 2px 10px 4px rgba(255, 255, 255, 0.58);
+}
+#green {
+  color: #3dd04b;
+  background-color: #3dd04b;
+  border-top-left-radius: 100%;
+  border-color: #91ff9c;
+}
+#green:hover {
+  background-color: #52ff63;
+}
+#red {
+  color: #f72612;
+  background-color: #f72612;
+  border-top-right-radius: 100%;
+  border-color: #ff9c91;
+}
+#red:hover {
+  background-color: #ff5848;
+}
+#yellow {
+  color: #ffee24;
+  background-color: #ffee24;
+  border-bottom-left-radius: 100%;
+  border-color: #fff798;
+}
+#yellow:hover {
+  background-color: #fff251;
+}
+#blue {
+  color: #038de6;
+  background-color: #038de6;
+  border-bottom-right-radius: 100%;
+  border-color: #9ed9ff;
+}
+#blue:hover {
+  background-color: #46b6ff;
+}
+
+
+#settings {
+  color: #fff;
+  background-color: #3a3a3a;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+  margin: 30px;
+  box-shadow:
+    inset 0px 0px 10px 2px #777,
+    0px 0px 0px 1px #373737,
+    3px 3px 10px 6px #939191,
+    5px 5px 25px 10px #b3b1b1;
+}
+.sc {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.btn {
+  padding: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 1px 1px 15px #ccc;
+}
+.on {
+  background-color: #32cd32;
+}
+.off {
+  background-color: #ff6347;
+  display: none;
+}
